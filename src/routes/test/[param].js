@@ -1,3 +1,3 @@
-export function get ({ params }) {
+export function GET ({ params }) {
   return { body: { ssrParams: params }}
 }
